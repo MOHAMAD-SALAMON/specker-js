@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-image:linear-gradient(45deg , yellow 50% , blue 50%);
+    height: 100vh;
+    width: 100vw;
+ }
+ form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+ }
+ form input{
+    outline: 0;
+    border: 0;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+ }
+ form button {
+    font-size: large;
+    font-weight: bold;
+    outline: 0;
+    border: 0;
+    background-color: yellow;
+    color: blue;
+    height: 40px;
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s;
+ }
+ form button:hover{
+    transform: scale(1.1);
+ }
